@@ -7,7 +7,7 @@ http.createServer(function(req, res) {
 }).listen(8080);
 
 
-// ========================================================== //
+// ==================//by Ned//============================= //
 
 const { Client, Collection, Intents, GatewayIntentBits, Partials } = require('discord.js');
 const config = require('./src/config/config.json');
@@ -55,8 +55,8 @@ client.slashCommands = new Collection();
 
 require("./src/handler")(client);
 
-client.login('');
+client.login('TOKEN DO SEU BOT AQUI!!!'); //by Ned
 
-client.MongoConnect = ('');
+client.MongoConnect = ('LINK DO MONGODB AQUI !!!');
 
 
